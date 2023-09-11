@@ -1,4 +1,5 @@
-Inputs:
+**Input Component:**
+
 I completed the challenge "Input Component" from  [https://devchallenges.io/]. I tried to make it with some changes. I used some props for customize the inputs with colors, size or direction. Also I used some components children to compartmentalize the differents inputs. On this way I have a cleaner code on each component.  
 
 Dependencies: 
