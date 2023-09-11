@@ -1,0 +1,140 @@
+/* DEFAULT INPUTS WITH SIZES */
+.defaultInput {
+    height: 5vh;
+    width: 15vw;
+    margin: 1vh 0;
+    padding: 1vh;
+    border-radius: 5px;
+    border: none;
+    outline:  1px solid grey;
+}
+
+.defaultInput:hover {
+    outline: 2px solid darkslategrey;
+}
+
+.defaultInput:focus {
+    outline-color: cornflowerblue;
+}
+
+.full-width{
+   width:70vw;
+}
+
+
+/* DISABLED INPUT */
+
+.disabledInput{
+    background-color: rgb(196, 196, 196);
+}
+
+
+
+/* HELPER TEXT INPUTS */
+.helperTextContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.helperText{
+    outline: none;
+    color: grey;
+    text-align: left;
+}
+
+/* ICON INPUTS */
+.icon-input-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 15vw;
+}
+
+.left-direction{
+    font-size: 24px;
+    position: absolute;
+    left: 0.2vw;
+}
+
+.right-direction{
+    font-size: 24px;
+    position: absolute;
+    right: 5px;
+}
+
+.icon-input-left{
+    position: relative;
+    width: 98%;
+    padding-left: 2vw;
+    padding-right: 0.5vw;
+    height: 5vh;
+    margin: 1vh auto;
+    border-radius: 5px;
+    border: none;
+    outline:  1px solid grey;
+}
+.icon-input-right{
+    position: relative;
+    width: 95%;
+    padding-right: 2vw;
+    padding-left: 0.5vw;
+    height: 5vh;
+    margin: 1vh auto;
+    border-radius: 5px;
+    border: none;
+    outline:  1px solid grey;
+}
+
+
+/* MULTILINE */
+.text-area{
+    padding: 1vh;
+    resize: none;
+}
+
+.text-area:focus{
+outline-color: cornflowerblue;
+}
+
+
+/* COLORS */
+
+.error {
+    outline-color: red;
+    color: red;
+}
+
+.error:focus {
+    outline-color: rgb(177, 0, 0);
+}
+
+.blue{
+    outline-color: blue;
+    color: blue;
+}
+
+.blue:hover, .blue:focus{
+    outline: 2px solid blue;
+}
+
+.green{
+    outline-color: green;
+    color: green;
+}
+
+.green:hover, .green:focus{
+    outline: 2px solid green;
+
+}
+
+ .purple{
+    outline-color: purple;
+    color: purple;
+}
+
+.purple:focus,.purple:hover{
+    outline: 2px solid purple;
+
+}
+

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.defaultSection,
+.errorSection,
+.helperTextSection,
+.iconSection,
+.multilineSection
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+    margin: 5vh auto;
+}
+
+.disabledSection {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 50%;
+    margin: 5vh auto;
+}
+.fullWidthSection{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    left: 24vw;
+    max-width: 70%;
+    margin: 5vh 0;
+    text-align: center;
+}
